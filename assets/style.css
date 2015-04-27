@@ -19,3 +19,8 @@ a:hover {
     border-bottom: #444;
 }
 
+small {
+    color: #999;
+    font-style: italic;
+}
+
