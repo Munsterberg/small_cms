@@ -23,9 +23,12 @@ $articles = $article->fetch_all();
         <li><a href="article.php?id=<?php echo $article['article_id']; ?>">
                 <?php echo $article['article_title']; ?>
             </a>
-            <small><?php echo date('l jS', $article['article_timestamp']) ?></small></li>
+            <small><?php echo date('d, M Y', $article['article_timestamp']) ?></small></li>
     </ol>
     <?php } ?>
+
+    <br/>
+    <small><a href="admin">Admin</a></small>
 </div>
 
 </body>
